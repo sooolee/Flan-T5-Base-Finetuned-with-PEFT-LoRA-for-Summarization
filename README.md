@@ -2,11 +2,11 @@
 
 This project used the following blog as a reference: https://www.philschmid.de/fine-tune-flan-t5-peft
 
-Instead of finetuning 'flan-t5-base' as is, I chose to further finetune a finetuned model 'braindao/flan-t5-cnn' on chat & dialogue SAMSum dataset. 'braindao/flan-t5-cnn' had been already finetuned on the CNN Dailymail dataset.
+Instead of finetuning 'flan-t5-base' as is, I chose to further finetune a finetuned model 'braindao/flan-t5-cnn' on chat & dialogue SAMSum dataset. 'braindao/flan-t5-cnn' had been already finetuned on the CNN Dailymail dataset. 
 
 
 ## Demo
-Please visit my Hugging Face Space for Gradio API, which takes YouTube Videio_ID and gives a summary: [sooolee/flan-t5-base-cnn-samsum-lora](https://huggingface.co/spaces/sooolee/summarize-transcripts-gradio)
+Please visit my Hugging Face Space for Gradio API, which takes YouTube Videio_ID and gives a summary: [sooolee/summarize-transcripts-gradio](https://huggingface.co/spaces/sooolee/summarize-transcripts-gradio)
 
 You can watch my quick demo [video](https://www.loom.com/share/8c7f3dbbf4964e46bf13350a19b3ca6f).  
 
@@ -39,7 +39,8 @@ The following hyperparameters were used during training:
 
 
 ## How to use
-Note 'max_new_tokens=60' is used in the below example to control the length of the summary. FLAN-T5 model has max generation length = 200 and min generation length = 20 (default).
+* [model in hugging space](https://huggingface.co/sooolee/flan-t5-base-cnn-samsum-lora)
+* Note 'max_new_tokens=60' is used in the below example to control the length of the summary. FLAN-T5 model has max generation length = 200 and min generation length = 20 (default).
 
 ```python
 import torch
