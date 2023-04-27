@@ -5,8 +5,8 @@ This project used the following blog as a reference: https://www.philschmid.de/f
 Instead of finetuning 'flan-t5-base' as is, I chose to further finetune a finetuned model 'braindao/flan-t5-cnn' on chat & dialogue SAMSum dataset. 'braindao/flan-t5-cnn' had been already finetuned on the CNN Dailymail dataset. 
 
 
-## Demo
-Please visit my Hugging Face Space for Gradio API, which takes YouTube Videio_ID and gives a summary: [sooolee/summarize-transcripts-gradio](https://huggingface.co/spaces/sooolee/summarize-transcripts-gradio)
+## Gradio API Demo
+Please visit my Hugging Face Space for **Gradio API**, which takes YouTube *Videio_ID* and gives a summary: [sooolee/summarize-transcripts-gradio](https://huggingface.co/spaces/sooolee/summarize-transcripts-gradio)
 
 You can watch my quick demo [video](https://www.loom.com/share/8c7f3dbbf4964e46bf13350a19b3ca6f).  
 
