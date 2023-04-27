@@ -1,0 +1,4 @@
+peft
+transformers==4.27.2
+gradio
+youtube_transcript_api
